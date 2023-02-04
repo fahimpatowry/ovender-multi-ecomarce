@@ -1,0 +1,30 @@
+Main Point
+============
+    home page=>
+	.nav (done)
+	.footer (done) 
+	.shopingType (done)
+	.banner (done)
+	.flash sall (done)
+	.catagoris (done)
+	.oven mall
+	.most poruler
+	.Daily Discover
+    product single page
+    catagori page
+    flash sell
+    product page
+    chart,widh page
+    blog
+
+    User Profile
+
+others
+===========
+    How to Shop
+    Returns and Refunds
+    Contact Us
+    About Ovenar
+    Terms & Conditions
+    Privacy Policy
+    Ovendar Blog
