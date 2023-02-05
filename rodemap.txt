@@ -1,23 +1,28 @@
 Main Point
 ============
-    home page=>
+    1)home page=> (done)
 	.nav (done)
 	.footer (done) 
 	.shopingType (done)
 	.banner (done)
 	.flash sall (done)
 	.catagoris (done)
-	.oven mall
-	.most poruler
-	.Daily Discover
-    product single page
-    catagori page
-    flash sell
-    product page
-    chart,widh page
-    blog
+	.oven mall (done)
+	.most poruler (done)
+	.Daily Discover (done)
+    2)product single page (5-2-23)
+	.product area(done)
+	.product datails (done)
+	.product review (done)
+	.shop daitelsw (done)
+	.related product dote
+    3)catagori page (5-2-23)
+    4)flash sell (5-2-23)
+    5)product page (5-2-23)
+    6)chart, wish page
+    7)blog
 
-    User Profile
+    8**)User Profile
 
 others
 ===========
