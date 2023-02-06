@@ -28,14 +28,16 @@ Main Point
     10**)User Profile (6-2-23) (done)
     
     7)contact us (6-2-23) (done)
-    9)blog (6-2-23) 
+    9)blog (6-2-23) (done)
 
 others
 ===========
-    How to Shop
-    Returns and Refunds
-    About Ovenar
-    Terms & Conditions
-    Privacy Policy
+    How to Shop 
+    Returns and Refunds 
+    About Ovenar (done)
+    Terms & Conditions (done)
+    Privacy Policy (done)
 
+************************
+========================
    saller panel (last)

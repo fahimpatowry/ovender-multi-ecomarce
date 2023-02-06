@@ -1934,6 +1934,87 @@ button.FaBtn.RegistBtn.LoginBtn{
 }
 /* =============== chart page end ==============*/
 
+/* =============== Blog page end ==============*/
+.BlogCard{
+    background-color: var(--bgColor);
+    padding: 7px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.BlogCard .ImageBox{
+    margin-bottom: 12px;
+    height: 130px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+}
+
+.BlogCard .ImageBox img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+
+.BlogCard h6{
+    height: 40px;
+    overflow: hidden;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+
+.RecentBlog h3{
+    border-bottom: 2px solid var(--bgColor);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.RecentBlog ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+/* =============== Blog page end ==============*/
+
+/* =============== Trams and Condition page start ==============*/
+.AboutUsPerDiv2 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.AboutUsPerDiv h5 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.45rem;
+    text-align: center;
+}
+
+.AboutUsPerDiv p{
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: justify;
+}
+
+.AboutCategorius ul{
+    margin-bottom: 20px;
+}
+
+.AboutCategorius ul li{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: var(--bgColor);
+}
+/* =============== Trams and Condition page end ==============*/
+
+
 /* =============== contact page start ==============*/
 .ContactUSDiv {
     padding: 20px 0;
@@ -1944,9 +2025,8 @@ button.FaBtn.RegistBtn.LoginBtn{
 }
 
 .Contactfrom {
-    max-width: 400px;
     margin: auto;
-    width: 100%;
+    width: 95%;
 }
 
 .Contactfrom label {
@@ -1970,7 +2050,6 @@ button.FaBtn.RegistBtn.LoginBtn{
 .Contactfrom textarea {
     width: 100%;
     float: left;
-    max-width: 400px;
     border-radius: 8px;
     height: 100px;
     border: none;

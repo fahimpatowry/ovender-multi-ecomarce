@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Trams and Conditions </title>
+
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- google fronts -->  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,900&display=swap" rel="stylesheet">
+
+        <!-- bootstrap file link --> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        
+        <!-- css file links -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <!-- Navber Start -->
+        <nav>
+            <!--Navber For Laptop And Computer -->
+            <div class="hideOnPhone">
+                <!-- Top Nevber -->
+                <div class="TopNev">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-circle-question"></i>
+                                        Help
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-headset"></i> 
+                                        Seller Center
+                                    </li>
+                                </ul>
+                            </div>
+        
+                            <div class="ContactDiv col-5">
+                                <div class="SocialIocn float-right">
+                                    <ul>
+                                        <li> 
+                                            <a href="#" class="facbookNav"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li> 
+                                        <li>
+                                            <a href="#" class="tuitterNav"><i class="fa-brands fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                                        </li> 
+                                        <li>
+                                            <a href="#" class="Youtube"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="facbookNav"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- mid Nevber -->
+                <div class="MidNev">
+                    <div class="container">
+                        <div class="row">
+                            <div class="logo col-2 text-center">
+                                <a href="./index.html">
+                                    <img src="./assets/images/logo.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="Serchber col-1 DestopNavCtagoris">
+                                <i class="fa-solid fa-bars CatagorisIcinHide" id="CatagorisIcinHide"> </i>
+                                <i class="fa fa-xmark CatagorisIcinHideCros" id="CatagorisIcinHideCros"></i>
+
+                                <!-- scorle click action -->
+                                <div class="NavClickAction" id="NavClickAction">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Furniture</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Holiday</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Lighting</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Bath</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Improvemetn</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item NavSubBranceHover">
+                                            <div class="d-flex NavSubBrance">
+                                                <div>
+                                                    <a class="nav-link" aria-current="page" href="./categories.html">Tabletop</a>
+                                                </div>
+                                                
+                                                <div>
+                                                    <i class="fa-solid fa-chevron-right navLinkI"></i>
+                                                </div>
+                                            </div>
+            
+                                            <!-- for deorop down li dtart -->
+                                            <div class="category-sub-menu bg-1 TabletopSubMenu">
+                                                <div class="row g-4">
+                                                    <div class="col-lg-4">
+                                                        <h4>
+                                                            Living Room 
+                                                        </h4>
+                                                        <ul>
+                                                            <li><a href="./categories.html">Dresses</a></li>
+                                                            <li><a href="./categories.html">Jeggings</a></li>
+                                                            <li><a href="./categories.html">Kurtis</a></li>
+                                                            <li><a href="./categories.html">Palazzo Pants & Culottes</a></li>
+                                                            <li><a href="./categories.html">Pants</a></li>
+                                                            <li><a href="./categories.html">Shapewear</a></li>
+                                                            <li><a href="./categories.html">Skirts</a></li>
+                                                            <li><a href="./categories.html">Tops</a></li>
+                                                            <li><a href="./categories.html">T-Shirts</a></li>
+                                                            <li><a href="./categories.html">Tunics</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <h4>
+                                                            Bed Room Furniture
+                                                        </h4>
+                                                        <ul>
+                                                            <li><a href="./categories.html">Ballet Flats</a></li>
+                                                            <li><a href="./categories.html">Pumps</a></li>
+                                                            <li><a href="./categories.html">Closed-Toe Wedges</a></li>
+                                                            <li><a href="./categories.html">Fashion Boots</a></li>
+                                                            <li><a href="./categories.html">Flat Sandals</a></li>
+                                                            <li><a href="./categories.html">Flip Flops</a></li>
+                                                            <li><a href="./categories.html">Heeled Sandals</a></li>
+                                                            <li><a href="./categories.html">House Slippers</a></li>
+                                                            <li><a href="./categories.html">Slip-Ons</a></li>
+                                                            <li><a href="./categories.html">Sneakers</a></li>
+                                                            <li><a href="./categories.html">Wedge Sandals</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <h4>
+                                                            kitchen & Dining
+                                                        </h4>
+                                                        <ul>
+                                                            <li><a href="./categories.html">Fashion</a></li>
+                                                            <li><a href="./categories.html">Casual</a></li>
+                                                            <li><a href="./categories.html">Business</a></li>
+                                                            <li><a href="./categories.html">Sports</a></li>
+                                                            <li><a href="./categories.html">Accessories</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Kitchern</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Bedding</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Baby and Kids</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Celling</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Home Ber</a>
+                                            </div>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <div class="d-flex">
+                                                <a class="nav-link" aria-current="page" href="./categories.html">Pet Supplies</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="Serchber col-6">
+                                <form action="">
+                                    <input type="text" placeholder="Search Your Product.....">
+                                    <label ><i class="fa-solid fa-magnifying-glass"></i></label>
+                                </form>
+                            </div>
+
+                            <div class="SelectedIocn col-3">
+                                <!-- <a href="./shopingCart.html"> -->
+                                    <div class="IconDiv NavCart Chartnonem">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <div>
+                                            <p class="Count">0</p>
+                                            <a href="./shopingCart.html">
+                                            <p>My Cart</p></a>
+                                        </div>
+
+                                        <!-- Hover show chart summery start -->
+                                        <div class="CartSummaryNav">
+                                            <div class="row CartUpperSummary">
+                                                <div class="upperLeft col-6">
+                                                    <span>1 </span>Item in Cart
+                                                </div>
+
+                                                <div class="upperRight col-6">
+                                                    <span>Cart Subtotal:</span>
+                                                    <p class="Price">Tk<span>100</span></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="CartNabBtn">
+                                                <a href="./shopingCart.html">
+                                                    Proceed To heckout
+                                                </a>
+                                            </div>
+
+                                            <div class="CartSummaryProduct row">
+                                                <div class="col-3">
+                                                    <img src="./Images/Product/Light/llight1.jpg" alt="">
+                                                </div>
+                                                
+                                                <div class="col-9">
+                                                    <span class="CartProductTitle"> Mi343 Model Chines Light Chines Light Chines Light</span>
+                                                    <form class="CartNavForm">
+                                                        <div class="CartProductQuantity">
+                                                            <label >Qty: </label>
+                                                            <input type="text" value="5">
+                                                        </div>
+
+                                                        <div class="CartProductQuantity">
+                                                            <button>
+                                                                <i class="fa-solid fa-delete-left"></i>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                            <div class="CartNabBtn CartNabBtn1">
+                                                <a href="./shopingCart.html">
+                                                    View and Edit Cart 
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Hover show chart summery end -->
+                                    </div>
+                                <!-- </a> -->
+
+                                <a href="./Wish.html"  class="IconDiv lovehide Chartnone">
+                                    <div class="IconDiv">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <div>
+                                            <p class="Count">0</p>
+                                            <p>Wishlist</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                <a href="./Login.html">
+                                    <div class="IconDiv">
+                                        <i class="fa-regular fa-user"></i>
+                                        <div>
+                                            <p>Login</p>
+                                            <p>Register</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navber Fop Mobile -->
+            <div class="ShowInTabe">
+                <!-- Mobile Top NavBer -->
+                <div class="MoboTop">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 CatagorisTabe">
+                                <nav class="navbar navbar-expand-lg">
+                                    <div class="">
+                                        <button class="navbar-toggler" onclick="ShowMiniNev()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                            <i class="fa-solid fa-bars"></i>
+                                        </button>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <!-- navber menu -->    
+                            <div class="collapse navbar-collapse NavCaragoris" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="MobileMwnuTitle">
+                                        <span>All Categories</span> 
+                                        <i class="fa-solid fa-xmark hidemobomenu" onclick="HideMiniNev()"></i>
+                                    </i>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Furniture</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Holiday</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Rugs & Decor</a>
+                                        </div>
+
+                                    </li>
+                                    
+                                    <li class="nav-item" onclick="showDropdown()">
+
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Tabletop</a>
+                                        </div>
+
+                                        <i class="fa-solid fa-chevron-right navLinkI"></i>
+                                        
+                                        <!-- mobile Deopdowon Menu -->
+                                        <div class="w-100 DeopDownMenuMobiel">
+                                            <div class="DeopDownDiv">
+                                                <h6>
+                                                    Living Room 
+                                                </h6>
+                                                <ul>
+                                                    <li><a href="./categories.html">Dresses</a></li>
+                                                    <li><a href="./categories.html">Jeggings</a></li>
+                                                    <li><a href="./categories.html">Kurtis</a></li>
+                                                    <li><a href="./categories.html">Palazzo Pants & Culottes</a></li>
+                                                    <li><a href="./categories.html">Pants</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div>
+                                                <h6>
+                                                    Bed Room Furniture
+                                                </h6>
+                                                <ul>
+                                                    <li><a href="./categories.html">Flip Flops</a></li>
+                                                    <li><a href="./categories.html">Heeled Sandals</a></li>
+                                                    <li><a href="./categories.html">House Slippers</a></li>
+                                                    <li><a href="./categories.html">Slip-Ons</a></li>
+                                                    <li><a href="./categories.html">Wedge Sandals</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Bath</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Home Improvemetn</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Kitchern & Tabletop</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Bedding</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Baby and Kids</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Outdoor</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Celling</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Home Ber</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Pet Supplies</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Improvemetn</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <div class="d-flex">
+                                            <a class="nav-link" aria-current="page" href="./categories.html">Rugs & Decor</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navber menu -->   
+
+                            <div class="col-6 LogoTabe text-center">
+                                <a href="./index.html">
+                                    <img src="./assets/images/logo.png" alt="">
+                                </a>
+                            </div>
+                            
+                            <div class="col-3 CartTabe">
+                                <a href="./shopingCart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="serchBer">
+                    <form action="">
+                        <input type="text">
+                        <label for="">
+                            <i class="fa-solid fa-magnifying-glass"> </i>
+                        </label>
+                    </form>
+                </div>
+
+                <!-- mobile Bottom NavBer -->
+                <div class="MovboBottom">
+                    <div class="container">
+                        <a class="active" href="./index.html"><i class="fa-solid fa-house"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="./Wish.html"><i class="fa-regular fa-heart"></i></a>
+                        <a href="./Login.html"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navber End -->
+
+        <!-- details sectin start -->
+        <Section class="MainBodyTop HerosSection sectionMarginBot">
+            <div class="container mt-lg-2">
+                <div class="col-12 AboutUsLeft TermsAndCond"> 
+                    <div class="AboutUsPerDiv AboutUsPerDiv2">
+                        <h5>Acceptance of our Terms</h5>
+
+                        <p>
+                            JAMIDARI has been found and established in 2014 when online marketing strategies were 
+                            taking their place all over the world. A Digital Marketing Solution has been teamed 
+                            up with experts and professional workers who intend to support clients 24/7, 365 
+                            days. We offer all kinds of necessary services for online-based business 
+                            domestically and internationally, which includes, Search engine optimization, social 
+                            media marketing, email marketing, SMS marketing, pay per click, branding, promotion, 
+                            website design and development, domain registration, web hosting providing, 
+                            outsourcing training, etc.
+                        </p>
+                    </div>
+
+                    <div class="AboutUsPerDiv AboutUsPerDiv2">
+                        <h5>Provision of Services</h5>
+
+                        <p>
+                            JAMIDARI has been found and established in 2014 when online marketing strategies were 
+                            taking their place all over the world. A Digital Marketing Solution has been teamed 
+                            up with experts and professional workers who intend to support clients 24/7, 365 
+                            days. We offer all kinds of necessary services for online-based business 
+                            domestically and internationally, which includes, Search engine optimization, social 
+                            media marketing, email marketing, SMS marketing, pay per click, branding, promotion, 
+                            website design and development, domain registration, web hosting providing, 
+                            outsourcing training, etc.
+                        </p>
+                    </div>
+
+                    <div class="AboutUsPerDiv AboutUsPerDiv2">
+                        <h5>Proprietary Rights</h5>
+
+                        <p>
+                            JAMIDARI has been found and established in 2014 when online marketing strategies were 
+                            taking their place all over the world. A Digital Marketing Solution has been teamed 
+                            up with experts and professional workers who intend to support clients 24/7, 365 
+                            days. We offer all kinds of necessary services for online-based business 
+                            domestically and internationally, which includes, Search engine optimization, social 
+                            media marketing, email marketing, SMS marketing, pay per click, branding, promotion, 
+                            website design and development, domain registration, web hosting providing, 
+                            outsourcing training, etc.
+                        </p>
+                    </div>
+
+                    <div class="AboutUsPerDiv AboutUsPerDiv2">
+                        <h5>Submitted Content</h5>
+
+                        <p>
+                            JAMIDARI has been found and established in 2014 when online marketing strategies were 
+                            taking their place all over the world. A Digital Marketing Solution has been teamed 
+                            up with experts and professional workers who intend to support clients 24/7, 365 
+                            days. We offer all kinds of necessary services for online-based business 
+                            domestically and internationally, which includes, Search engine optimization, social 
+                            media marketing, email marketing, SMS marketing, pay per click, branding, promotion, 
+                            website design and development, domain registration, web hosting providing, 
+                            outsourcing training, etc.
+                        </p>
+                    </div>
+
+                    <div class="AboutUsPerDiv AboutUsPerDiv2">
+                        <h5>Termination of Agreement</h5>
+
+                        <p>
+                            JAMIDARI has been found and established in 2014 when online marketing strategies were 
+                            taking their place all over the world. A Digital Marketing Solution has been teamed 
+                            up with experts and professional workers who intend to support clients 24/7, 365 
+                            days. We offer all kinds of necessary services for online-based business 
+                            domestically and internationally, which includes, Search engine optimization, social 
+                            media marketing, email marketing, SMS marketing, pay per click, branding, promotion, 
+                            website design and development, domain registration, web hosting providing, 
+                            outsourcing training, etc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <!-- details section end -->
+
+        <!-- Footer start -->
+        <footer class="bgPadding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <h4>Customer Care</h4>
+
+                        <ul>
+                            <li>
+                                <a href="../tramsandcond.html">How to Shop</a>
+                            </li>
+                            <li>
+                                <a href="./tramsandcond.html">Returns and Refunds</a>
+                            </li>
+                            <li>
+                                <a href="./contactus.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                        <h4>Ovendar</h4>
+
+                        <ul>
+                            <li>
+                                <a href="./about.html">About Ovenar</a>
+                            </li>
+                            <li>
+                                <a href="./tramsandcond.html">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="./tramsandcond.html">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="./Blog.html">Ovendar Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                        <h4>Follow Us</h4>
+
+                        <div class="ContactDiv">
+                            <div class="SocialIocn">
+                                <ul>
+                                    <li> 
+                                        <a href="#" class="facbookNav"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li> 
+                                    <li>
+                                        <a href="#" class="tuitterNav"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                                    </li> 
+                                    <li>
+                                        <a href="#" class="Youtube"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="facbookNav"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="./assets/images/payment.png" alt="">
+            </div>
+
+            <div>
+                <p class="text-center">©2022 Ovendar. All Rights Reserved. | Design & Development By:- Digital Marketing Solution (Pvt.) Ltd.</p>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+        <!-- js file -->
+        <script src="./assets/js/app.js"></script>
+
+        <!-- bootstap script -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    </body>
+</html>
