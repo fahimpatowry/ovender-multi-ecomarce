@@ -74,10 +74,14 @@ button:hover{
 }
 
 .sectionTitle{
-    font-size: 24px;
     font-weight: 600;
     margin-bottom: 30px;
     text-transform: capitalize;
+}
+
+h2,
+.sectionTitle h2{
+    font-size: 24px;
 }
 
 /* Scroll */
@@ -484,6 +488,10 @@ input:focus,input:hover{
     font-weight: 500;
     overflow: scroll;
     overflow-x: hidden;
+}
+
+.NavSubBranceHover .NavClickAction{
+    width: 100%;
 }
 
 .CatagorisIcinHideCros{
@@ -1034,7 +1042,7 @@ footer p{
 }
 
 .caragorisCard:hover{
-    border: none;
+    border: 0px solid rgb(179, 179, 179);
     background-color: white;
 }
 
@@ -1104,10 +1112,12 @@ footer p{
 .TimeTitle{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .TimeTitle h2{
     margin-right: .5rem;
+    margin-bottom: 0;
 }
 
 .Timing{
@@ -1237,6 +1247,10 @@ footer p{
     transform: translate(0);
 }
 /* =============== Product page end ==============*/
+
+.RewardsAndGift .ProductCard1{
+    background-color: white;
+}
 
 /* responsive start */
 @media screen and (max-width: 1200px) {
@@ -1477,6 +1491,22 @@ footer p{
 
     .OvendermealSection .sectionTitle{
         align-items: start;
+    }
+
+    .tab-content-Cate{
+        padding-left: 9px !important;
+        padding-right: 9px;
+    }
+
+    .RewardsAndGift,
+    .RewardsAndGift .catagorisMain{
+       padding-left: 0;
+       padding-bottom: 0;
+    }
+    
+    .RewardsAndGift .catagorisMain .row{
+       margin-left: 0;
+       margin-right: 0;
     }
 }
 
