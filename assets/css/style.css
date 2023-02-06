@@ -2123,10 +2123,7 @@ button.FaBtn.RegistBtn.LoginBtn{
 .BlogSingle img,
 .BlogSingle p{
     margin-bottom: 20px;
-}
-
-.BlogSingle p{
-    margin-bottom: 20px;
+    text-align: justify;
 }
 
 .BlogSingle h3{
