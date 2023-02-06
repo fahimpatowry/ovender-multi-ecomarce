@@ -2102,7 +2102,7 @@ button.FaBtn.RegistBtn.LoginBtn{
 .AddressDiv {
     margin-bottom: 20px;
     margin-right: 0.5rem;
-    display: flex
+    display: flex;
 }
 
 .AddressI {
@@ -2119,6 +2119,20 @@ button.FaBtn.RegistBtn.LoginBtn{
 }
 /* =============== contact page end ==============*/
 
+/* =============== Blog single page end ==============*/
+.BlogSingle img,
+.BlogSingle p{
+    margin-bottom: 20px;
+}
+
+.BlogSingle p{
+    margin-bottom: 20px;
+}
+
+.BlogSingle h3{
+    margin-bottom: 20px;
+}
+/* =============== Blog single page end ==============*/
 
 .RewardsAndGift .ProductCard1{
     background-color: white;
