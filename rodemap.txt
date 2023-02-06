@@ -12,7 +12,7 @@ Main Point
 	.Daily Discover (done)
 
     2)product single page (5-2-23) (done)
-	.product area(done)
+	.product area (done)
 	.product datails (done)
 	.product review (done)
 	.shop daitelsw (done)
@@ -25,10 +25,10 @@ Main Point
 
     6)chart, wish page (6-2-23) (done)
     8)login (6-2-23) (done)
-    10**)User Profile (6-2-23)
+    10**)User Profile (6-2-23) (done)
     
-    7)contact us (6-2-23) 
-    9)blog
+    7)contact us (6-2-23) (done)
+    9)blog (6-2-23) 
 
 others
 ===========
@@ -39,6 +39,3 @@ others
     Privacy Policy
 
    saller panel (last)
-
-
-http://ovendar.com.bd/public/assets/Fa-responsive-css/slider7.jpg

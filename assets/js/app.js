@@ -103,8 +103,25 @@ PalceOrder1.addEventListener("click", function() {
  // Forgot
  let ForgotShowcli = document.querySelector(".ForgotShowcli");
  function ForgotShow(){
-     let LoginDiv = document.querySelector(".LoginDiv");
-     let ForgotBtn = document.querySelector(".ForgotPassowrdDiv");
-     LoginDiv.style.display = "none";
-     ForgotBtn.style.display = "block";
+    let LoginDiv = document.querySelector(".LoginDiv");
+    let ForgotBtn = document.querySelector(".ForgotPassowrdDiv");
+    LoginDiv.style.display = "none";
+    ForgotBtn.style.display = "block";
  }
+
+ // Address addd show  AddAdressBtnO
+ function FunAddAdressBtnO(){
+    let addressInfoFrom = document.querySelector(".addressInfoFrom");
+    let collectedAddressA = document.querySelector(".collectedAddress");
+    collectedAddressA.style.display = "none";
+    addressInfoFrom.style.display = "block";
+    console.log("helow!!!!!!!!!")
+}
+
+function FunaddressInfoFrom(){
+    let addressInfoFrom = document.querySelector(".addressInfoFrom");
+    let collectedAddressA = document.querySelector(".collectedAddress");
+    collectedAddressA.style.display = "block";
+    addressInfoFrom.style.display = "none";
+    console.log("helow!!!!!!!!!")
+}
